@@ -13,11 +13,7 @@
   - [3.3 4-Partition Kanban Board with Quick & Haptic Controls](#33-4-partition-kanban-board-with-quick--haptic-controls)
   - [3.4 Task Creation, Editing & Deletion](#34-task-creation-editing--deletion)
 - [4. Project Structure](#4-project-structure-file-based-routing)
-- [5. Data Models & Zod Schemas](#5-data-models--zod-schemas)
-- [6. State Management (Zustand Stores)](#6-state-management-zustand-stores)
-- [7. UI/UX Design System](#7-uiux-design-system)
-- [8. Bun & Docker Setup](#8-bun--docker-setup)
-- [9. Execution & Run Guide](#9-execution--run-guide)
+- [5. Execution & Run Guide](#9-execution--run-guide)
 
 ---
 
