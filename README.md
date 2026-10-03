@@ -13,7 +13,7 @@
   - [3.3 4-Partition Kanban Board with Quick & Haptic Controls](#33-4-partition-kanban-board-with-quick--haptic-controls)
   - [3.4 Task Creation, Editing & Deletion](#34-task-creation-editing--deletion)
 - [4. Project Structure](#4-project-structure-file-based-routing)
-- [5. Execution & Run Guide](#9-execution--run-guide)
+- [5. Execution & Run Guide](#5-execution--run-guide)
 
 ---
 
