@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, Pressable, Alert } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { useAuthStore } from '../../stores/auth.store';
@@ -14,6 +15,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenCreateModal }) => {
   const router = useRouter();
   const { user, logout } = useAuthStore();
   const tasks = useTaskStore((state) => state.tasks);
+  const insets = useSafeAreaInsets();
 
   const pendingCount = tasks.filter((t) => t.status !== 'completed').length;
   const username = user?.username || 'Guest';
@@ -37,8 +39,15 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenCreateModal }) => {
   };
 
   return (
-    <View style={styles.container}>
-      {/* User Info Left */}
+    <View
+        style={[
+          styles.container,
+          {
+            paddingTop: insets.top + 12,
+          },
+        ]}
+      >     
+       {/* User Info Left */}
       <View style={styles.userSection}>
         <Avatar
           uri={user?.avatarUrl}
@@ -86,17 +95,16 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenCreateModal }) => {
 };
 
 const styles = StyleSheet.create({
-  container: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    paddingHorizontal: 18,
-    paddingTop: 12,
-    paddingBottom: 14,
-    backgroundColor: '#0F172A',
-    borderBottomWidth: 1,
-    borderBottomColor: '#1E293B',
-  },
+ container: {
+  flexDirection: 'row',
+  alignItems: 'center',
+  justifyContent: 'space-between',
+  paddingHorizontal: 18,
+  paddingBottom: 14,
+  backgroundColor: '#0F172A',
+  borderBottomWidth: 1,
+  borderBottomColor: '#1E293B',
+},
   userSection: {
     flexDirection: 'row',
     alignItems: 'center',
