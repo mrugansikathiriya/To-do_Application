@@ -101,9 +101,6 @@ The board features 4 distinct partitions:
 #### Interactive Controls:
 * **One-tap column shifts**: Quick ⬅ and ➡ arrows on each card for rapid column movement.
 * **Long-press or Menu (`...`)**: Opens a bottom action sheet allowing direct transfer to any column, edit, or delete.
-* **Haptics**: Subtle vibrations triggered on press, column shifts, and task creation.
-* **Search & Filters**: Real-time search bar + priority filter chips (`All`, `Urgent`, `High`, `Medium`, `Low`).
-* **Progress Pill**: Displays current completed / total ratio and percentage.
 
 ### 3.4 Task Creation, Editing & Deletion
 * **Create Task Dialog**: Accessible via FAB (`+`) or top-right buttons:
@@ -118,7 +115,7 @@ The board features 4 distinct partitions:
 
 ---
 
-## 4. Project Structure (File-Based Routing)
+## 4. Project Structure
 
 ```text
 to_do_app/
