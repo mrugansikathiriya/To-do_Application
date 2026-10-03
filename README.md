@@ -12,12 +12,8 @@
   - [3.2 Dashboard & Navigation Bar](#32-dashboard--navigation-bar)
   - [3.3 4-Partition Kanban Board with Quick & Haptic Controls](#33-4-partition-kanban-board-with-quick--haptic-controls)
   - [3.4 Task Creation, Editing & Deletion](#34-task-creation-editing--deletion)
-- [4. Project Structure (File-Based Routing)](#4-project-structure-file-based-routing)
-- [5. Data Models & Zod Schemas](#5-data-models--zod-schemas)
-- [6. State Management (Zustand Stores)](#6-state-management-zustand-stores)
-- [7. UI/UX Design System](#7-uiux-design-system)
-- [8. Bun & Docker Setup](#8-bun--docker-setup)
-- [9. Execution & Run Guide](#9-execution--run-guide)
+- [4. Project Structure](#4-project-structure-file-based-routing)
+- [5. Execution & Run Guide](#9-execution--run-guide)
 
 ---
 
@@ -101,9 +97,6 @@ The board features 4 distinct partitions:
 #### Interactive Controls:
 * **One-tap column shifts**: Quick ⬅ and ➡ arrows on each card for rapid column movement.
 * **Long-press or Menu (`...`)**: Opens a bottom action sheet allowing direct transfer to any column, edit, or delete.
-* **Haptics**: Subtle vibrations triggered on press, column shifts, and task creation.
-* **Search & Filters**: Real-time search bar + priority filter chips (`All`, `Urgent`, `High`, `Medium`, `Low`).
-* **Progress Pill**: Displays current completed / total ratio and percentage.
 
 ### 3.4 Task Creation, Editing & Deletion
 * **Create Task Dialog**: Accessible via FAB (`+`) or top-right buttons:
@@ -118,7 +111,7 @@ The board features 4 distinct partitions:
 
 ---
 
-## 4. Project Structure (File-Based Routing)
+## 4. Project Structure
 
 ```text
 to_do_app/
