@@ -14,6 +14,7 @@
   - [3.4 Task Creation, Editing & Deletion](#34-task-creation-editing--deletion)
 - [4. Project Structure](#4-project-structure-file-based-routing)
 - [5. Execution & Run Guide](#5-execution--run-guide)
+- [6. UI Screenshots & Preview](#6-ui-screenshorts-preview)
 
 ---
 
@@ -186,3 +187,55 @@ docker-compose up --build
 # Run in background
 docker-compose up -d
 ```
+
+
+---
+
+## 📱 UI Screenshots & Preview
+
+The To-Do App provides a modern dark-themed mobile interface for authentication, task management, and Kanban-based workflow management.
+
+### Authentication
+
+<table cellspacing="15" cellpadding="10">
+  <tr>
+    <td align="center" width="50%">
+      <b>Login</b><br>
+      <img src="screenshots/login.png" width="250">
+    </td>
+    <td align="center" width="50%">
+      <b>Register</b><br>
+      <img src="screenshots/register.png" width="250">
+    </td>
+  </tr>
+</table>
+
+### Dashboard & Kanban
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <b>Kanban Dashboard</b><br>
+      <img src="screenshots/dashBoard.png" width="250">
+    </td>
+    <td align="center" width="50%">
+      <b>Completed Tasks</b><br>
+      <img src="screenshots/completedTask.png" width="250">
+    </td>
+  </tr>
+</table>
+
+### Task Management
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <b>Create New Task</b><br>
+      <img src="screenshots/createTask.png" width="250">
+    </td>
+    <td align="center" width="50%">
+      <b>Task Actions</b><br>
+      <img src="screenshots/taskAction.png" width="250">
+    </td>
+  </tr>
+</table>
